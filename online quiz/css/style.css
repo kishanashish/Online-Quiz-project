@@ -1,0 +1,536 @@
+
+/*------------------------------------------body-----*/
+
+
+body{
+	
+	background:white;
+
+}
+
+/*------------------------------------------navigation bar-----*/
+
+
+#menu {
+	text-align: center;
+}
+
+
+#menu ul{
+	padding:0 95px;
+	display:inline-block;
+	list-style:none;
+	padding-left:2%;
+	
+}
+
+#menu li{
+	float:left;
+	padding: 0 40px;
+}
+
+#menu a{
+	font-size:21px;
+	line-height:28px;
+	color:gray;
+	padding-right:10px;
+	
+ }
+#menu a:hover{color:black; text-decoration:underline;}
+
+
+/*-------------------------logo---------------------*/
+
+#logo {
+	width: 10%;
+	height: 134px;
+	display: block;
+	cursor: pointer;
+	margin: 0 auto -82px;
+	background: url(../images/logo.png);
+	background-size:100% 100%;
+	position: relative;
+	z-index: 3;
+	padding-left:-80px;
+	background-size:100% 100%;
+}	
+
+	
+/*---------------------------mid-------------------------------------------------*/
+
+
+.mid {
+	height: 550px;
+	position: relative;
+	overflow: hidden;
+	
+
+}
+
+
+ .mid .layout  {
+	width:100%;
+	height: 600px;
+	background: url(../images/start.jpg);
+	background-size:100% 100%;
+}
+
+.mid .desion{
+	float: right;
+	margin:2% 5% 0 0;
+	background-color:green;
+	height:50%;
+	width:20%;
+	background-size:100% 100%;
+}
+
+
+
+.mid .tr{
+	
+	margin-left:21%;
+	text-align:center;
+	font-size:20px;	
+	color:white;
+	width:55%;
+	height:50%;
+	background-size:100% 100%;
+}
+
+
+#str{
+	background-color:black;
+	font-size:200%;
+	text-align:center;
+	color:white;
+}
+
+#str input{text-decoration:none; color:white; font-size:70%; color:white; background:black; }
+
+#str input:hover{background:green;}
+
+std  {
+	font-size: 25px;
+	background: #008bc4;
+	display: block;
+}
+
+/*---------------------------------artical------*/
+
+
+.pic{
+	
+	margin-top:8;
+	margin-left:10%;
+	
+}
+
+.pic .info{
+	margin-top:-20%;
+	margin-left:20%;
+	overflow: hidden;
+	color:black;
+	font-size:150%;
+	font-style:italic;
+	
+}
+
+#h1{
+	font-weight:bold;
+	background-color:green;
+	font-size:160%;
+	color:white;
+}
+
+
+/*----------------------------certificate---------------------------*/
+
+
+
+.certificate{
+	
+	background:  #2c4167;        
+	margin-top:16%;
+	height:500px;
+	width:100%;
+	
+	
+}
+
+.certificate h4{
+	padding-top:2%;
+	text-align:center;
+	font-size:30px;
+	color:white;
+	
+}
+
+.certificate img{
+	height:70%;
+	weight:90%;
+	padding-left:5%;
+	cursor: pointer;
+}
+
+/%---------------------gallery----------======*/
+
+.gallery{
+	float:right;
+
+}
+.gallery .h5{
+	text-align:center;
+	font-size:50px;
+	padding-top:2%;
+	color:gray;
+}
+
+.gallery img{
+	height:200px;
+	margin:2% 0 0 7%;
+	border-style:solid:
+	border:20px solid black;
+	border-radius:100%;
+	text-align:center;
+	background-size:100% 100%;
+	
+}
+
+
+/*-------------------------------------footer-------------*/
+
+#footer{
+	
+	background:#2c4167;
+	margin-top:10%;
+	height:600px;
+	width:100%;
+	
+}	
+
+/*-----------------------------column first-------------------*/
+
+#footer article {
+	float: left;
+	width: 25%;
+	padding: 8% 10%;
+}
+
+
+#footer h7{
+	color:white;
+	font-size:50px;
+	
+}
+
+
+#footer .col-1 li{
+	border-bottom:1px solid white;
+	padding-top:5%;
+	position:relative;
+	padding-bottom:8%
+
+}
+
+
+
+
+#footer .col-1 a{
+ 	background:url(../images/address.png) no-repeat;
+	padding-left:22%;
+	display:block;
+	position:relative;
+	font-size:20px;
+	background-size:15% 50%;
+}
+#footer .col-1 d{
+ 	background:url(../images/emailnew.png) no-repeat;
+	padding-left:22%;
+	display:block;
+	position:relative;
+	padding-top:7px;
+	font-size:20px;
+	background-size:15% 100%;
+}
+
+#footer .col-1 c{
+ 	background:url(../images/phone.png) no-repeat;
+	padding-left:22%;
+	display:block;
+	position:relative;
+	padding-top:7px;
+	font-size:20px;
+	background-size:15% 100%;
+}
+
+/*-------------------------------------------column second----------*/
+
+
+
+
+#footer .col-1 e{
+ 	background:url(../images/facebook2.png) no-repeat;
+	padding-left:22%;
+	display:block;
+	position:relative;
+	font-size:20px;
+	padding-bottom:10px;
+	background-size:15% 100%;
+}
+#footer .col-1 f{
+ 	background:url(../images/twitter1.png) no-repeat;
+	padding-left:22%;
+	display:block;
+	position:relative;
+	padding-top:7px;
+	font-size:20px;
+	padding-bottom:7px;
+	background-size:15% 100%;
+}
+
+#footer .col-1 g{
+ 	background:url(../images/google1.png) no-repeat;
+	padding-left:30%;
+	display:block;
+	position:relative;
+	padding-top:7px;
+	font-size:20px;
+	padding-bottom:7px;
+	background-size:15% 100%;
+	
+
+}
+
+#footer .company{
+	text-align: center;
+	clear:both;
+	color: #899ec4;
+}
+
+
+/*----------------------------------------------------------certificate----------------------------------------*/
+
+.layout{
+	background-color:#2c4167;
+	height:75px;
+	width:100%;
+
+}
+
+.layout .logo1{
+	margin-left:43%
+	
+	
+}
+
+.layout .logo1 img{
+	height:175px;
+	width:25%;
+	margin-top:-6%;
+	background-size:100% 100%;
+}
+
+
+
+
+
+/*-------------------------------------------------------------select language-------------------------======*/
+
+
+/*=================c language========*/
+.lang{
+	margin:3% 0 0 10%;
+	
+}
+
+.lang .bodr{
+	border:3px solid #2c4167;
+	width:27%;
+}
+.lang .bodr kl{
+	font-size:200%;
+	color:#2c4167;
+	
+	border-bottom:2px solid #2c4167;
+	width:100%;
+}
+
+.lang .bodr ul{
+	list-style:none;	
+}
+
+.lang .bodr ul li{
+	font-size:200%;
+	color:green;
+	border-bottom:2px solid #2c4167;
+	margin-left:-40px;
+	
+}
+
+.lang .bodr ul li a{
+	padding-left:10%;
+	text-decoration:none;
+	color:#2c4167;
+	
+}
+.lang .bodr ul li a:hover{color:green; text-decoration:underline;}
+/*--------------------------------------certificate------------------------------------------*/
+
+.cert{
+	margin:5% 0 0 8%;
+	color: green;
+	font-size:150%;
+}
+
+.cert .cert1 {
+	color:black;
+	padding:2% 0 0 5%;
+	
+}
+
+
+
+
+/*-----------------------------------------------------c language SET layout---------*/
+/*===================profilek section=======*/
+#section1{
+	
+	float:right;
+	
+}
+
+
+
+
+.profile{
+	margin:5% 0 0 -15%;
+	position:fixed;
+}
+
+.profile p{margin:180% 0 0 0;}
+
+
+.lang2{
+	margin:40% 0 0 -15%;
+	position:fixed;
+	
+}
+
+
+.lang2 .bodr{
+	border:3px solid #2c4167;
+	width:96%;
+	
+}
+.lang2  kl{
+	font-size:200%;
+	
+	color:white;
+	width:100%;
+	background:#2c4167;
+	
+	
+}
+
+.lang2 .bodr ul{
+	list-style:none;	
+}
+
+.lang2 .bodr ul li{
+	font-size:150%;
+	color:green;
+	border-bottom:2px solid #2c4167;
+	margin-left:-40px;
+	
+}
+
+.lang2 .bodr ul li a{
+	padding-left:10%;
+	text-decoration:none;
+	color:#2c4167;
+	
+}
+
+/*==========question section=======*/
+
+
+#section2{flaot:left;}
+.sec1{
+	margin:0 0 0 5%;
+	font-size:150%;
+	border-right:5px solid red;
+	width:75%;
+}
+
+.sec1 .sec2 table{
+	font-size:100%;
+	margin-left:5%;
+	
+}
+
+#q1{padding-top:5%;}
+
+/*-------question section layout----*/
+
+.clang{	
+	height:100%;
+	width:80%;
+	background:#E6EAF2;
+	border-right:5px solid red;
+	
+}
+
+.clang img{margin:25% 0 0 40%;}
+
+
+
+/*------------------------------galary menu----------*/
+
+
+
+#gallery{
+	width:60%;
+	height:475px;
+	border:2px solid black;
+	margin:5% auto;
+	position:relative;
+
+}
+#gallery img{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+#gallery .btn{
+	position:absolute;
+	width:50px;
+	height:50px;
+	border:none;
+	border-radius:25px;
+	top:200px;
+	background:black;
+	color:white;
+}
+
+#gallery #btn1:hover{box-shadow:10px  0px 20px 0px white;}
+#gallery #btn2:hover{box-shadow:10px  0px 20px 0px white;}
+
+
+#gallery #btn2{
+	position:relative;
+	float:right;
+}
+
+/*-------------------------about menu------*/
+
+#about{margin:5% 8%;}
+#about a{
+	font-size:180%;
+	color:#2c4167;
+	border-bottom:2px solid #2c4167;
+}
+#about1{
+	font-size:150%;
+	
+}
